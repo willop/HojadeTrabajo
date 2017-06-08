@@ -106,6 +106,24 @@ namespace Practica1IPC2
 
         }
 
+        //Inversion de palabras
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string x = textBox1.Text;
+            string y = textBox2.Text;
+            string aux1 = "";
+            string aux2 = "";
+            for (int i = x.Length - 1; i >= 0; i--)
+            {
+                aux1 += x[i];
 
+            }
+            for (int i = y.Length - 1; i >= 0; i--)
+            {
+                aux2 += y[i];
+
+            }
+            MessageBox.Show("palabra invertida: " + aux1 + " " + aux2);
+        }
     }
 }
