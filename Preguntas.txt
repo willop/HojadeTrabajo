@@ -1,0 +1,14 @@
+Que es un commit?
+Es una funcion para registrar los cambios en los archivos.
+
+que entiende por merge?
+Se entiende como la funcion que permite fucionar ramas de un repositorio.
+
+Cual es la diferencia entre "Pull" y "Push"?
+	Pull: Es la accion de una peticion de informacion a un repositorio.
+
+	Push: Es la accion de enviar los archivos actualizados al repositorio desceado.
+
+Como utilizar las ramas ("branches") en la aplicacion?
+En la aplicacion tiene una pestaña en la cual maneja todas las ramas del repositorio y al seleccionarla
+se podra editar los archivos contenidos en esa rama.
