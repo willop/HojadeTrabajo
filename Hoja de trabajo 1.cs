@@ -125,5 +125,24 @@ namespace Practica1IPC2
             }
             MessageBox.Show("palabra invertida: " + aux1 + " " + aux2);
         }
+
+        //Regla de tres
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int a = Convert.ToInt32(textBox1.Text);
+
+            int b = Convert.ToInt32(textBox2.Text);
+
+            int c = Convert.ToInt32(textBox3.Text);
+
+            int multi = b * c;
+
+            double resultado = multi / a;
+
+            MessageBox.Show("El resultado de la regla de tres es \n" + resultado);
+        }
+
+       
+
     }
 }
