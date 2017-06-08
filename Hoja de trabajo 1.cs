@@ -123,7 +123,7 @@ namespace Practica1IPC2
                 aux2 += y[i];
 
             }
-            MessageBox.Show("palabra invertida: " + aux1 + " " + aux2);
+            MessageBox.Show("palabra invertida: " + aux1 + " " + aux2+"\nCarne: 20148419");
         }
 
         //Regla de tres
